@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/OneTwoSeparation"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="164dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/TwoThreeSeparation"
+        android:layout_marginTop="163dp"
+        android:layout_below="@+id/OneTwoSeparation"
+        android:layout_alignStart="@+id/OneTwoSeparation" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player 1"
+        android:id="@+id/PlayerOneBuzzer"
+        android:layout_above="@+id/TwoThreeSeparation"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player 2"
+        android:id="@+id/PlayerTwoBuzzer"
+        android:layout_below="@+id/OneTwoSeparation"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/TwoThreeSeparation"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player 3"
+        android:id="@+id/PlayerThreeBuzzer"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/TwoThreeSeparation"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

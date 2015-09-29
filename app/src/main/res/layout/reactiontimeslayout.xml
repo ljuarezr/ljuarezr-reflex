@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minimum"
+        android:id="@+id/MinimumButton"
+        android:layout_marginTop="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maximum"
+        android:id="@+id/MaximumButton"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/MinimumButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Average"
+        android:id="@+id/AverageButton"
+        android:layout_below="@+id/MaximumButton"
+        android:layout_alignStart="@+id/MaximumButton"
+        android:layout_marginTop="58dp"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Median"
+        android:id="@+id/MedianButton"
+        android:layout_below="@+id/AverageButton"
+        android:layout_alignEnd="@+id/AverageButton"
+        android:layout_marginTop="57dp"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

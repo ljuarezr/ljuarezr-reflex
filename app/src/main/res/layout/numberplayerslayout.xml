@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="How many players?"
+        android:id="@+id/HowManyPlayersView"
+        android:layout_marginTop="114dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 players"
+        android:id="@+id/twoPlayersButton"
+        android:layout_below="@+id/HowManyPlayersView"
+        android:layout_marginTop="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 players"
+        android:id="@+id/threePlayersButton"
+        android:layout_below="@+id/twoPlayersButton"
+        android:layout_marginTop="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4 players"
+        android:id="@+id/fourPlayersButton"
+        android:layout_below="@+id/threePlayersButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="49dp"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
