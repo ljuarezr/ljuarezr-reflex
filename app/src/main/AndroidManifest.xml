@@ -16,6 +16,70 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".HowManyPlayersActivity"
+            android:label="@string/title_activity_how_many_players" >
+        </activity>
+        <activity
+            android:name=".ChooseStatActivity"
+            android:label="@string/title_activity_choose_stat" >
+        </activity>
+        <activity
+            android:name=".InstructionsActivity"
+            android:label="@string/title_activity_instructions" >
+        </activity>
+        <activity
+            android:name=".ReactionStatsActivity"
+            android:label="@string/title_activity_reaction_stats" >
+        </activity>
+        <activity
+            android:name=".ChooseBuzzerCountsActivity"
+            android:label="@string/title_activity_choose_buzzer_counts" >
+        </activity>
+        <activity
+            android:name=".SingleBuzzerActivity"
+            android:label="@string/title_activity_single_buzzer" >
+        </activity>
+        <activity
+            android:name=".DoubleBuzzerActivity"
+            android:label="@string/title_activity_double_buzzer" >
+        </activity>
+        <activity
+            android:name=".TripleBuzzerActivity"
+            android:label="@string/title_activity_triple_buzzer" >
+        </activity>
+        <activity
+            android:name=".QuadBuzzerActivity"
+            android:label="@string/title_activity_quad_buzzer" >
+        </activity>
+        <activity
+            android:name=".EmailStatsToActivity"
+            android:label="@string/title_activity_email_stats_to" >
+        </activity>
+        <activity
+            android:name=".ReactionTimesNumbersActivity"
+            android:label="@string/title_activity_reaction_times_numbers" >
+        </activity>
+        <activity
+            android:name=".BuzzCountsNumbersActivity"
+            android:label="@string/title_activity_buzz_counts_numbers" >
+        </activity>
+        <activity
+            android:name=".Player1WinsActivity"
+            android:label="Player1WinsActivity" >
+        </activity>
+        <activity
+            android:name=".Player2WinsActivity"
+            android:label="@string/title_activity_player2_wins" >
+        </activity>
+        <activity
+            android:name=".Player3WinsActivity"
+            android:label="@string/title_activity_player3_wins" >
+        </activity>
+        <activity
+            android:name=".Player4WinsActivity"
+            android:label="@string/title_activity_player4_wins" >
+        </activity>
     </application>
 
 </manifest>

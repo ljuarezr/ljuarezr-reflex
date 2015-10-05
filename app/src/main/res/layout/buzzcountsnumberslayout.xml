@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="2 Player Games"
+        android:id="@+id/TwoPlayerGames"
+        android:layout_above="@+id/P12"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="3 Player Games"
+        android:id="@+id/ThreePlayerGames"
+        android:layout_above="@+id/P13"
+        android:layout_toEndOf="@+id/P12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="4 Player Games"
+        android:id="@+id/FourPlayerGames"
+        android:layout_below="@+id/P33Value"
+        android:layout_alignStart="@+id/P33Value" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="P1:"
+        android:id="@+id/P12"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="18dp"
+        android:layout_above="@+id/P22"
+        android:layout_toStartOf="@+id/TwoPlayerGames" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="P2:"
+        android:id="@+id/P22"
+        android:layout_above="@+id/ThreePlayerGames"
+        android:layout_alignStart="@+id/P12"
+        android:layout_marginBottom="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="P1:"
+        android:id="@+id/P13"
+        android:layout_above="@+id/P23"
+        android:layout_alignStart="@+id/P22"
+        android:layout_marginBottom="21dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="P2:"
+        android:id="@+id/P23"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/P13" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="P3:"
+        android:id="@+id/P33"
+        android:layout_below="@+id/P23"
+        android:layout_alignStart="@+id/P23"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="P1:"
+        android:id="@+id/P14"
+        android:layout_below="@+id/FourPlayerGames"
+        android:layout_alignStart="@+id/P33" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="P2:"
+        android:id="@+id/P24"
+        android:layout_below="@+id/P14"
+        android:layout_toEndOf="@+id/GetCountsButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="P3:"
+        android:id="@+id/P34"
+        android:layout_below="@+id/P24Value"
+        android:layout_alignStart="@+id/P24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="P4:"
+        android:id="@+id/P44"
+        android:layout_below="@+id/P34"
+        android:layout_alignStart="@+id/P34" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/P12Value"
+        android:layout_below="@+id/TwoPlayerGames"
+        android:layout_toEndOf="@+id/P12"
+        android:autoText="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/P22Value"
+        android:layout_alignBottom="@+id/P22"
+        android:layout_alignStart="@+id/P12Value" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/P13Value"
+        android:layout_below="@+id/ThreePlayerGames"
+        android:layout_toEndOf="@+id/P12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/P23Value"
+        android:layout_above="@+id/P33"
+        android:layout_toEndOf="@+id/P12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/P33Value"
+        android:layout_alignBottom="@+id/P33"
+        android:layout_toEndOf="@+id/P12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/P14Value"
+        android:layout_above="@+id/P24"
+        android:layout_alignEnd="@+id/P24Value"
+        android:layout_alignStart="@+id/FourPlayerGames" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/P24Value"
+        android:layout_alignBottom="@+id/P24"
+        android:layout_toEndOf="@+id/P12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/P34Value"
+        android:layout_alignTop="@+id/P34"
+        android:layout_toEndOf="@+id/P12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/P44Value"
+        android:layout_alignBottom="@+id/P44"
+        android:layout_alignStart="@+id/P34Value" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Buzz Counts"
+        android:id="@+id/BuzzCountsTitle"
+        android:layout_above="@+id/TwoPlayerGames"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get"
+        android:id="@+id/GetCountsButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:onClick="getCounts" />
+</RelativeLayout>
